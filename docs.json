@@ -45,7 +45,7 @@
     {
       "name": "Support",
       "icon": "life-ring",
-      "url": "mailto:support@builddrr.com"
+      "url": "https://discord.gg/Fg8qtgMN"
     }
   ],
   "logo": {
@@ -56,7 +56,7 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:support@builddrr.com"
+        "href": "https://discord.gg/Fg8qtgMN"
       }
     ],
     "primary": {
