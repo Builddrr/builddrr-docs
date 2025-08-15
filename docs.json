@@ -3,17 +3,34 @@
   "theme": "mint",
   "name": "Builddrr",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#1a1625",
+    "light": "#faf8ff",
+    "dark": "#1a1625"
   },
   "favicon": "/favicon.svg",
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": ["index", "quickstart"]
-    }
-  ],
+  "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Discord",
+          "icon": "discord",
+          "href": "https://discord.gg/builddrr"
+        }
+      ]
+    },
+    "tabs": [
+      {
+        "tab": "Docs",
+        "icon": "book-open",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["index", "quickstart"]
+          }
+        ]
+      }
+    ]
+  },
   "anchors": [
     {
       "name": "Try Builddrr",
@@ -50,9 +67,7 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/builddrr",
-      "github": "https://github.com/builddrr",
-      "linkedin": "https://linkedin.com/company/builddrr"
+      "x": "https://x.com/trybuilddrr"
     }
   }
 }
